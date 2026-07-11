@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarot House Support</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #14081c;
+      --surface: #24102f;
+      --surface-light: #30163d;
+      --gold: #d8a83e;
+      --text: #fff6dc;
+      --muted: #cdbf9f;
+      --border: rgba(216, 168, 62, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background:
+        radial-gradient(circle at top, #32123e 0%, var(--background) 52%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(760px, 100%);
+      margin: 0 auto;
+      padding: 40px;
+      background: rgba(36, 16, 47, 0.96);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: clamp(30px, 6vw, 46px);
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: var(--gold);
+      font-size: 20px;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--gold);
+    }
+
+    .box {
+      margin: 24px 0;
+      padding: 20px;
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 18px 12px;
+      }
+
+      main {
+        padding: 26px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Tarot House Support</h1>
+
+    <p>
+      Tarot House is a compact three-card workspace for tarot readers.
+      This page provides help with common questions and technical problems.
+    </p>
+
+    <div class="box">
+      <strong>Contact support</strong>
+
+      <p>
+        Email:
+        <a href="mailto:sliepovv@gmail.com">sliepovv@gmail.com</a>
+      </p>
+
+      <p>
+        When reporting a problem, please include your Chrome version,
+        the website where the issue occurred, and a short description
+        of what happened.
+      </p>
+    </div>
+
+    <h2>The extension does not open</h2>
+
+    <ul>
+      <li>Refresh the current webpage.</li>
+      <li>Click the Tarot House toolbar icon again.</li>
+      <li>Check that the extension is enabled in Chrome.</li>
+      <li>
+        Tarot House cannot run on Chrome internal pages or on the
+        Chrome Web Store.
+      </li>
+    </ul>
+
+    <h2>The panel is outside the visible area</h2>
+
+    <p>
+      Open Settings and select Restore default layout. This returns
+      the panel to its default position and Standard size.
+    </p>
+
+    <h2>Card images do not appear</h2>
+
+    <p>
+      Refresh the webpage and reopen Tarot House. All card images are
+      stored locally inside the extension and do not require an account.
+    </p>
+
+    <h2>Copy cards does not work</h2>
+
+    <p>
+      Reveal at least one card first. Copy cards copies only the names
+      of currently revealed cards.
+    </p>
+
+    <h2>Privacy</h2>
+
+    <p>
+      Tarot House does not collect browsing data or personal information.
+      Read the full
+      <a href="./">Privacy Policy</a>.
+    </p>
+
+    <footer>
+      © 2026 Tarot House. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
